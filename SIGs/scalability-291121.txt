@@ -1,0 +1,342 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "3a2a84bc-71c3-4ea3-ade9-9f57ade04f74",
+      "text": "Scalability",
+      "type": "nfr.NFR",
+      "x": 609,
+      "y": 172
+    },
+    {
+      "id": "80f21638-d3db-474b-9a40-79238b5502ae",
+      "text": "Database cluster",
+      "type": "nfr.Operationalization",
+      "x": 19,
+      "y": 296
+    },
+    {
+      "id": "145b6355-132d-4956-aca0-c3ffd8a5e50f",
+      "text": "Database per service",
+      "type": "nfr.Operationalization",
+      "x": 38,
+      "y": 366
+    },
+    {
+      "id": "1b084adb-675a-4c56-92cc-a118e2730c91",
+      "text": "Local database proxy",
+      "type": "nfr.Operationalization",
+      "x": 104,
+      "y": 426
+    },
+    {
+      "id": "b956cd7c-86d9-43d0-a313-b768803aede7",
+      "text": "Local sharding-based router ",
+      "type": "nfr.Operationalization",
+      "x": 201,
+      "y": 464
+    },
+    {
+      "id": "adecbc5e-ebdb-4746-8c9f-c08957725070",
+      "text": "Reactive auto-scaling ",
+      "type": "nfr.Operationalization",
+      "x": 468,
+      "y": 497
+    },
+    {
+      "id": "5a96e417-75fb-4668-b9f8-043238437598",
+      "text": "Proactive auto-scaling ",
+      "type": "nfr.Operationalization",
+      "x": 592,
+      "y": 496
+    },
+    {
+      "id": "aaa7edc5-e6b3-40ce-8e21-f19fef7a124a",
+      "text": "Scalable store ",
+      "type": "nfr.Operationalization",
+      "x": 347,
+      "y": 495
+    },
+    {
+      "id": "5a72ef4b-f460-4155-84eb-714d3e5a9615",
+      "text": "Database scalability",
+      "type": "nfr.NFR",
+      "x": 246,
+      "y": 293
+    },
+    {
+      "id": "7b1bd51f-fe0d-47fe-9517-7f384f29359d",
+      "text": "State scalability",
+      "type": "nfr.NFR",
+      "x": 348,
+      "y": 342
+    },
+    {
+      "id": "02afe53f-a010-4877-ad07-756ae84b6dbc",
+      "text": "Multiple service per host ",
+      "type": "nfr.Operationalization",
+      "x": 1221,
+      "y": 281
+    },
+    {
+      "id": "37df1879-2409-445b-af1e-81ea6fc032af",
+      "text": "Single service per host ",
+      "type": "nfr.Operationalization",
+      "x": 1174,
+      "y": 220
+    },
+    {
+      "id": "665277d2-ea42-4172-b43e-802bb1060de6",
+      "text": "Containerization ",
+      "type": "nfr.Operationalization",
+      "x": 1204,
+      "y": 350
+    },
+    {
+      "id": "79555dca-30b6-471e-9de8-71c0340de8ca",
+      "text": "Contributor coupling ",
+      "type": "nfr.Operationalization",
+      "x": 717,
+      "y": 497
+    },
+    {
+      "id": "006150e2-12cd-454c-9ced-062376d8b8d3",
+      "text": "Logical coupling ",
+      "type": "nfr.Operationalization",
+      "x": 822,
+      "y": 504
+    },
+    {
+      "id": "009f3dea-2414-4f9b-8fd7-75c57ad91e8b",
+      "text": "Semantic coupling ",
+      "type": "nfr.Operationalization",
+      "x": 930,
+      "y": 493
+    },
+    {
+      "id": "6ae5baf1-ce5b-4dd4-8d97-2dd2c7cb87af",
+      "text": "Decompose by business capabilities ",
+      "type": "nfr.Operationalization",
+      "x": 1031,
+      "y": 466
+    },
+    {
+      "id": "fb04ec5a-1d5e-4692-a02f-f3d0d1b670c1",
+      "text": "Decompose by subdomain ",
+      "type": "nfr.Operationalization",
+      "x": 1126,
+      "y": 412
+    },
+    {
+      "id": "b7573480-5478-4a37-a563-aa0f0a46c1a4",
+      "text": "Auto-scaling",
+      "type": "nfr.NFR",
+      "x": 524,
+      "y": 343
+    },
+    {
+      "id": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "text": "Decomposed services",
+      "type": "nfr.NFR",
+      "x": 716,
+      "y": 329
+    },
+    {
+      "id": "667ee9a1-49b6-47e0-8a93-e64f96150cf2",
+      "text": "Lightweight runtime environment",
+      "type": "nfr.NFR",
+      "x": 918,
+      "y": 272
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "a19a5f49-3bd8-4c09-abe9-78dec1748623",
+      "type": "nfr.AndRefinementLink",
+      "source": "5a72ef4b-f460-4155-84eb-714d3e5a9615",
+      "target": "3a2a84bc-71c3-4ea3-ade9-9f57ade04f74"
+    },
+    {
+      "id": "d57695c9-4b45-4ffe-8e75-312284e8ddb4",
+      "type": "nfr.ContributionLink",
+      "source": "145b6355-132d-4956-aca0-c3ffd8a5e50f",
+      "target": "5a72ef4b-f460-4155-84eb-714d3e5a9615",
+      "label": "++"
+    },
+    {
+      "id": "b097ddf4-a5a8-46e9-b941-16355ac67563",
+      "type": "nfr.ContributionLink",
+      "source": "1b084adb-675a-4c56-92cc-a118e2730c91",
+      "target": "5a72ef4b-f460-4155-84eb-714d3e5a9615",
+      "label": "++"
+    },
+    {
+      "id": "4e32d399-23e2-4a6e-a0f5-1e18c9a1b21b",
+      "type": "nfr.ContributionLink",
+      "source": "b956cd7c-86d9-43d0-a313-b768803aede7",
+      "target": "5a72ef4b-f460-4155-84eb-714d3e5a9615",
+      "label": "++"
+    },
+    {
+      "id": "72c41e29-f3d7-4fcd-bb50-9cad09145121",
+      "type": "nfr.ContributionLink",
+      "source": "aaa7edc5-e6b3-40ce-8e21-f19fef7a124a",
+      "target": "7b1bd51f-fe0d-47fe-9517-7f384f29359d",
+      "label": "++"
+    },
+    {
+      "id": "6ce07759-cf5a-4ec1-9246-7331bd4935af",
+      "type": "nfr.AndRefinementLink",
+      "source": "7b1bd51f-fe0d-47fe-9517-7f384f29359d",
+      "target": "3a2a84bc-71c3-4ea3-ade9-9f57ade04f74"
+    },
+    {
+      "id": "01ab4049-5cc1-415a-a9de-eae08937bfed",
+      "type": "nfr.ContributionLink",
+      "source": "80f21638-d3db-474b-9a40-79238b5502ae",
+      "target": "5a72ef4b-f460-4155-84eb-714d3e5a9615",
+      "label": "++"
+    },
+    {
+      "id": "6597673d-626f-4dc4-b927-87da5544c6cf",
+      "type": "nfr.ContributionLink",
+      "source": "adecbc5e-ebdb-4746-8c9f-c08957725070",
+      "target": "b7573480-5478-4a37-a563-aa0f0a46c1a4",
+      "label": "++"
+    },
+    {
+      "id": "066b2553-da66-4c3a-96e8-15daca0b8067",
+      "type": "nfr.ContributionLink",
+      "source": "5a96e417-75fb-4668-b9f8-043238437598",
+      "target": "b7573480-5478-4a37-a563-aa0f0a46c1a4",
+      "label": "++"
+    },
+    {
+      "id": "8b017047-b8b8-40ba-9510-5267d30e2ef9",
+      "type": "nfr.AndRefinementLink",
+      "source": "b7573480-5478-4a37-a563-aa0f0a46c1a4",
+      "target": "3a2a84bc-71c3-4ea3-ade9-9f57ade04f74"
+    },
+    {
+      "id": "abcd9942-2683-4ba4-949f-801f94539e6d",
+      "type": "nfr.ContributionLink",
+      "source": "79555dca-30b6-471e-9de8-71c0340de8ca",
+      "target": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "label": "++"
+    },
+    {
+      "id": "4f66cabc-96ba-4bda-a51c-38198fa30984",
+      "type": "nfr.ContributionLink",
+      "source": "006150e2-12cd-454c-9ced-062376d8b8d3",
+      "target": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "label": "++"
+    },
+    {
+      "id": "cb82dc4c-e88c-4c4c-aa78-3f3680f1428c",
+      "type": "nfr.ContributionLink",
+      "source": "009f3dea-2414-4f9b-8fd7-75c57ad91e8b",
+      "target": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "label": "++"
+    },
+    {
+      "id": "543341a2-9443-4d4c-a333-7918aa617554",
+      "type": "nfr.ContributionLink",
+      "source": "6ae5baf1-ce5b-4dd4-8d97-2dd2c7cb87af",
+      "target": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "label": "++"
+    },
+    {
+      "id": "9ce3fb70-b836-48d1-8c08-de938b19e958",
+      "type": "nfr.ContributionLink",
+      "source": "fb04ec5a-1d5e-4692-a02f-f3d0d1b670c1",
+      "target": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "label": "++"
+    },
+    {
+      "id": "386d1101-4c2d-4d5d-a96c-bcf938420afb",
+      "type": "nfr.AndRefinementLink",
+      "source": "667ee9a1-49b6-47e0-8a93-e64f96150cf2",
+      "target": "3a2a84bc-71c3-4ea3-ade9-9f57ade04f74"
+    },
+    {
+      "id": "e9f6d659-4ebe-42c2-9485-c090abfbcbda",
+      "type": "nfr.CorrelationLink",
+      "source": "37df1879-2409-445b-af1e-81ea6fc032af",
+      "target": "667ee9a1-49b6-47e0-8a93-e64f96150cf2",
+      "label": "–"
+    },
+    {
+      "id": "705cf2fe-b7b5-47a3-8fee-2f7c6da0f91f",
+      "type": "nfr.AndRefinementLink",
+      "source": "6e16645b-1af0-41ce-8769-6f00a44c3f1f",
+      "target": "3a2a84bc-71c3-4ea3-ade9-9f57ade04f74"
+    },
+    {
+      "id": "3ed64ccf-f543-4afc-972a-d0ef84fedcbe",
+      "type": "nfr.ContributionLink",
+      "source": "665277d2-ea42-4172-b43e-802bb1060de6",
+      "target": "667ee9a1-49b6-47e0-8a93-e64f96150cf2",
+      "label": "+"
+    },
+    {
+      "id": "57a5c659-4dfb-4336-9193-b838161634b2",
+      "type": "nfr.ContributionLink",
+      "source": "02afe53f-a010-4877-ad07-756ae84b6dbc",
+      "target": "667ee9a1-49b6-47e0-8a93-e64f96150cf2",
+      "label": "+"
+    }
+  ],
+  "display": {
+    "1b084adb-675a-4c56-92cc-a118e2730c91": {
+      "width": 97.59957885742188,
+      "height": 56.986236572265625
+    },
+    "b956cd7c-86d9-43d0-a313-b768803aede7": {
+      "width": 110.59805297851562,
+      "height": 65.98406982421875
+    },
+    "5a96e417-75fb-4668-b9f8-043238437598": {
+      "width": 100.59918212890625,
+      "height": 60.985504150390625
+    },
+    "37df1879-2409-445b-af1e-81ea6fc032af": {
+      "width": 102.5989990234375,
+      "height": 58.985992431640625
+    },
+    "665277d2-ea42-4172-b43e-802bb1060de6": {
+      "width": 104.598876953125,
+      "height": 54.986724853515625
+    },
+    "6ae5baf1-ce5b-4dd4-8d97-2dd2c7cb87af": {
+      "width": 116.59765625,
+      "height": 61.98504638671875
+    },
+    "fb04ec5a-1d5e-4692-a02f-f3d0d1b670c1": {
+      "width": 108.59857177734375,
+      "height": 58.985748291015625
+    },
+    "b7573480-5478-4a37-a563-aa0f0a46c1a4": {
+      "width": 105.59869384765625,
+      "height": 65.98382568359375
+    },
+    "6e16645b-1af0-41ce-8769-6f00a44c3f1f": {
+      "width": 102.5989990234375,
+      "height": 65.98431396484375
+    },
+    "667ee9a1-49b6-47e0-8a93-e64f96150cf2": {
+      "width": 130.59600830078125,
+      "height": 59.985748291015625
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Mon, 29 Nov 2021 17:18:47 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
