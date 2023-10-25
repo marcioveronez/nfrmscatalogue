@@ -1,0 +1,382 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "024001b5-1e9c-428c-8187-15f8201d3884",
+      "text": "Monitorability",
+      "type": "nfr.NFR",
+      "x": 832,
+      "y": 22
+    },
+    {
+      "id": "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b",
+      "text": "Communication monitoring",
+      "type": "nfr.NFR",
+      "x": 395,
+      "y": 133
+    },
+    {
+      "id": "9f267329-ce1f-4c8c-af06-73ea5742f0f8",
+      "text": "Edge server ",
+      "type": "nfr.Operationalization",
+      "x": 218,
+      "y": 257
+    },
+    {
+      "id": "9e2e13ab-59ba-47cc-967e-2c3eb00af385",
+      "text": "Resources use monitoring",
+      "type": "nfr.NFR",
+      "x": 513,
+      "y": 248
+    },
+    {
+      "id": "d98b521e-3d2a-44d6-a235-d0f97dc6575c",
+      "text": "Multiple service per host ",
+      "type": "nfr.Operationalization",
+      "x": 543,
+      "y": 396
+    },
+    {
+      "id": "cabe56f9-6ba7-466a-ada1-34c1a717e8d0",
+      "text": "Single service per host ",
+      "type": "nfr.Operationalization",
+      "x": 430,
+      "y": 383
+    },
+    {
+      "id": "2835e23c-8e18-451b-89f9-6dfb1dc2bf05",
+      "text": "Monitored data processing",
+      "type": "nfr.NFR",
+      "x": 774,
+      "y": 281
+    },
+    {
+      "id": "83de3749-af5c-4c20-812f-303552be647c",
+      "text": "Aggregation processing of monitored data ",
+      "type": "nfr.Operationalization",
+      "x": 661,
+      "y": 433
+    },
+    {
+      "id": "0874dc8a-da00-4198-8b79-107f61d2dfd9",
+      "text": "None-aggregation processing of monitored data ",
+      "type": "nfr.Operationalization",
+      "x": 823,
+      "y": 446
+    },
+    {
+      "id": "83048645-4a11-49c5-9391-62328faf0443",
+      "text": "Monitored data storing",
+      "type": "nfr.NFR",
+      "x": 1040,
+      "y": 216
+    },
+    {
+      "id": "ebde49a6-ad07-4ed3-9ea2-c04981b7c25b",
+      "text": "Centralized storage of monitored data ",
+      "type": "nfr.Operationalization",
+      "x": 1103,
+      "y": 446
+    },
+    {
+      "id": "a5bbea84-a718-4648-9670-165b0aa4b1c8",
+      "text": "Decentralized storage of monitored data ",
+      "type": "nfr.Operationalization",
+      "x": 1211,
+      "y": 389
+    },
+    {
+      "id": "0283c67c-ea9b-466c-8c32-766050fe244c",
+      "text": "Distributed logging ",
+      "type": "nfr.Operationalization",
+      "x": 1277,
+      "y": 317
+    },
+    {
+      "id": "d88737d4-df29-4edf-9075-74d594a965e3",
+      "text": "Security monitoring",
+      "type": "nfr.NFR",
+      "x": 1304,
+      "y": 188
+    },
+    {
+      "id": "16506419-a949-4ff3-923e-b93f8bc829c4",
+      "text": "Local monitor ",
+      "type": "nfr.Operationalization",
+      "x": 1424,
+      "y": 319
+    },
+    {
+      "id": "e84fa4c4-4e8a-4ba0-9632-20ed3558dc03",
+      "text": "External monitor ",
+      "type": "nfr.Operationalization",
+      "x": 1501,
+      "y": 236
+    },
+    {
+      "id": "8b58b1be-fcfd-4407-bac9-ae85c301f096",
+      "text": "Instrumentation ",
+      "type": "nfr.Operationalization",
+      "x": 328,
+      "y": 331
+    },
+    {
+      "id": "3d904e8f-e852-403a-8e6b-2c02a4638716",
+      "text": "Logging",
+      "type": "nfr.Operationalization",
+      "x": 153,
+      "y": 194
+    },
+    {
+      "id": "d3e7608c-885e-43a0-a7ec-5a478042a0d4",
+      "text": "Distributed tracing ",
+      "type": "nfr.Operationalization",
+      "x": 151,
+      "y": 121
+    },
+    {
+      "id": "52bebe62-9d3d-4bf8-8aec-094a74e237ad",
+      "text": "Log aggregator ",
+      "type": "nfr.Operationalization",
+      "x": 990,
+      "y": 415
+    },
+    {
+      "id": "8afc5eb9-08be-410a-9c12-800200034d18",
+      "text": "Traceability",
+      "type": "nfr.NFR",
+      "x": 1329,
+      "y": 104
+    },
+    {
+      "id": "8713dc89-8947-4f3e-bf1d-ce0b90bbf614",
+      "text": "Correlation ID ",
+      "type": "nfr.Operationalization",
+      "x": 1506,
+      "y": 144
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "56176685-0302-4361-8096-b120424b27d2",
+      "type": "nfr.ContributionLink",
+      "source": "9f267329-ce1f-4c8c-af06-73ea5742f0f8",
+      "target": "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b",
+      "label": "++"
+    },
+    {
+      "id": "1eaec68c-2fdd-4bca-8e6d-f1d6e46cf7e4",
+      "type": "nfr.CorrelationLink",
+      "source": "d98b521e-3d2a-44d6-a235-d0f97dc6575c",
+      "target": "9e2e13ab-59ba-47cc-967e-2c3eb00af385",
+      "label": "–"
+    },
+    {
+      "id": "dd025b8d-a6ed-4cd3-93b3-3227c2d45405",
+      "type": "nfr.ContributionLink",
+      "source": "cabe56f9-6ba7-466a-ada1-34c1a717e8d0",
+      "target": "9e2e13ab-59ba-47cc-967e-2c3eb00af385",
+      "label": "+"
+    },
+    {
+      "id": "c48ebfda-c294-41cc-a99d-5b85b41c293e",
+      "type": "nfr.ContributionLink",
+      "source": "83de3749-af5c-4c20-812f-303552be647c",
+      "target": "2835e23c-8e18-451b-89f9-6dfb1dc2bf05",
+      "label": "++"
+    },
+    {
+      "id": "e1674b36-2423-4fa5-95d9-25b407f404d2",
+      "type": "nfr.ContributionLink",
+      "source": "0874dc8a-da00-4198-8b79-107f61d2dfd9",
+      "target": "2835e23c-8e18-451b-89f9-6dfb1dc2bf05",
+      "label": "++"
+    },
+    {
+      "id": "2b38e55b-ae77-4328-bb08-2c23939deeac",
+      "type": "nfr.ContributionLink",
+      "source": "ebde49a6-ad07-4ed3-9ea2-c04981b7c25b",
+      "target": "83048645-4a11-49c5-9391-62328faf0443",
+      "label": "++"
+    },
+    {
+      "id": "8814f9c5-b489-4c45-9a88-61ecccba1f9b",
+      "type": "nfr.ContributionLink",
+      "source": "a5bbea84-a718-4648-9670-165b0aa4b1c8",
+      "target": "83048645-4a11-49c5-9391-62328faf0443",
+      "label": "++"
+    },
+    {
+      "id": "6f47dcfb-c9af-4269-b255-5a7500e68380",
+      "type": "nfr.ContributionLink",
+      "source": "0283c67c-ea9b-466c-8c32-766050fe244c",
+      "target": "83048645-4a11-49c5-9391-62328faf0443",
+      "label": "++"
+    },
+    {
+      "id": "79b6994f-2a71-4601-8f2a-00b10838b365",
+      "type": "nfr.ContributionLink",
+      "source": "16506419-a949-4ff3-923e-b93f8bc829c4",
+      "target": "d88737d4-df29-4edf-9075-74d594a965e3",
+      "label": "++"
+    },
+    {
+      "id": "dd781264-ec3b-442f-9617-82a133ea6468",
+      "type": "nfr.ContributionLink",
+      "source": "e84fa4c4-4e8a-4ba0-9632-20ed3558dc03",
+      "target": "d88737d4-df29-4edf-9075-74d594a965e3",
+      "label": "++"
+    },
+    {
+      "id": "88ce215a-cdb9-46fb-bef1-b30fc03f9015",
+      "type": "nfr.ContributionLink",
+      "source": "8b58b1be-fcfd-4407-bac9-ae85c301f096",
+      "target": "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b",
+      "label": "++"
+    },
+    {
+      "id": "146a6beb-049d-4174-a4e0-9094625937c1",
+      "type": "nfr.ContributionLink",
+      "source": "8b58b1be-fcfd-4407-bac9-ae85c301f096",
+      "target": "9e2e13ab-59ba-47cc-967e-2c3eb00af385",
+      "label": "++"
+    },
+    {
+      "id": "e16b0d21-38d0-470f-8284-883baa4e51d6",
+      "type": "nfr.ContributionLink",
+      "source": "3d904e8f-e852-403a-8e6b-2c02a4638716",
+      "target": "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b",
+      "label": "++"
+    },
+    {
+      "id": "1f128428-4b32-4f80-873c-0d4f8be8684a",
+      "type": "nfr.ContributionLink",
+      "source": "d3e7608c-885e-43a0-a7ec-5a478042a0d4",
+      "target": "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b",
+      "label": "++"
+    },
+    {
+      "id": "d3ce4ce6-fb61-4140-8295-4c4b0d8cd01e",
+      "type": "nfr.ContributionLink",
+      "source": "52bebe62-9d3d-4bf8-8aec-094a74e237ad",
+      "target": "83048645-4a11-49c5-9391-62328faf0443",
+      "label": "++"
+    },
+    {
+      "id": "6c937f96-037b-4e28-aa2d-9fdf8df18a3b",
+      "type": "nfr.ContributionLink",
+      "source": "8713dc89-8947-4f3e-bf1d-ce0b90bbf614",
+      "target": "8afc5eb9-08be-410a-9c12-800200034d18",
+      "label": "++"
+    },
+    {
+      "id": "622ca714-c7b7-42bb-bbe9-73d99b511c0e",
+      "type": "nfr.AndRefinementLink",
+      "source": "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b",
+      "target": "024001b5-1e9c-428c-8187-15f8201d3884"
+    },
+    {
+      "id": "300e077f-b5ce-438c-92c0-63fe1be26a24",
+      "type": "nfr.AndRefinementLink",
+      "source": "9e2e13ab-59ba-47cc-967e-2c3eb00af385",
+      "target": "024001b5-1e9c-428c-8187-15f8201d3884"
+    },
+    {
+      "id": "196aaf41-be74-456c-8eb8-d83d2a424e88",
+      "type": "nfr.AndRefinementLink",
+      "source": "2835e23c-8e18-451b-89f9-6dfb1dc2bf05",
+      "target": "024001b5-1e9c-428c-8187-15f8201d3884"
+    },
+    {
+      "id": "a1c104e6-8d57-48f4-b261-29fb140f76f3",
+      "type": "nfr.AndRefinementLink",
+      "source": "83048645-4a11-49c5-9391-62328faf0443",
+      "target": "024001b5-1e9c-428c-8187-15f8201d3884"
+    },
+    {
+      "id": "d3eaeaff-a07a-4748-9317-9cb4ed27d54a",
+      "type": "nfr.AndRefinementLink",
+      "source": "d88737d4-df29-4edf-9075-74d594a965e3",
+      "target": "024001b5-1e9c-428c-8187-15f8201d3884"
+    },
+    {
+      "id": "9e4c6421-bc4e-4fc2-9b46-fbfe975f32d9",
+      "type": "nfr.AndRefinementLink",
+      "source": "8afc5eb9-08be-410a-9c12-800200034d18",
+      "target": "024001b5-1e9c-428c-8187-15f8201d3884"
+    }
+  ],
+  "display": {
+    "0b8ad994-2a1a-4e8f-aa8e-7f5663a0915b": {
+      "width": 104.598876953125,
+      "height": 57.83002471923828
+    },
+    "9e2e13ab-59ba-47cc-967e-2c3eb00af385": {
+      "width": 101.59909057617188,
+      "height": 60.828826904296875
+    },
+    "d98b521e-3d2a-44d6-a235-d0f97dc6575c": {
+      "width": 110.5982666015625,
+      "height": 57.82952880859375
+    },
+    "cabe56f9-6ba7-466a-ada1-34c1a717e8d0": {
+      "width": 105.59857177734375,
+      "height": 59.328948974609375
+    },
+    "2835e23c-8e18-451b-89f9-6dfb1dc2bf05": {
+      "width": 111.59808349609375,
+      "height": 61.828582763671875
+    },
+    "83de3749-af5c-4c20-812f-303552be647c": {
+      "width": 146.59454345703125,
+      "height": 70.82687377929688
+    },
+    "0874dc8a-da00-4198-8b79-107f61d2dfd9": {
+      "width": 149.5941162109375,
+      "height": 68.82711791992188
+    },
+    "83048645-4a11-49c5-9391-62328faf0443": {
+      "width": 107.59844970703125,
+      "height": 60.828826904296875
+    },
+    "ebde49a6-ad07-4ed3-9ea2-c04981b7c25b": {
+      "width": 129.59625244140625,
+      "height": 65.82736206054688
+    },
+    "a5bbea84-a718-4648-9670-165b0aa4b1c8": {
+      "width": 141.59503173828125,
+      "height": 70.82687377929688
+    },
+    "0283c67c-ea9b-466c-8c32-766050fe244c": {
+      "width": 100.5992431640625,
+      "height": 57.82977294921875
+    },
+    "8b58b1be-fcfd-4407-bac9-ae85c301f096": {
+      "width": 106.59867095947266,
+      "height": 57.82978820800781
+    },
+    "d3e7608c-885e-43a0-a7ec-5a478042a0d4": {
+      "width": 92.59988784790039,
+      "height": 54.330631256103516
+    },
+    "52bebe62-9d3d-4bf8-8aec-094a74e237ad": {
+      "width": 111.5982666015625,
+      "height": 51.83099365234375
+    },
+    "8713dc89-8947-4f3e-bf1d-ce0b90bbf614": {
+      "width": 98.599609375,
+      "height": 54.83050537109375
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Wed, 08 Dec 2021 18:41:26 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1346,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

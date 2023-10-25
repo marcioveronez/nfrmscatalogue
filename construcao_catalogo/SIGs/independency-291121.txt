@@ -1,0 +1,277 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "9ddee8ec-21ff-41a0-986d-c8712419af58",
+      "text": "Independency ",
+      "type": "nfr.NFR",
+      "x": 728,
+      "y": 27
+    },
+    {
+      "id": "c97c54bb-b570-40e0-9815-5ae0e3248e10",
+      "text": "Isolated service instance",
+      "type": "nfr.NFR",
+      "x": 741,
+      "y": 202
+    },
+    {
+      "id": "2c265339-ca9a-4f5f-bcc1-7d523648ac19",
+      "text": "Single service per host",
+      "type": "nfr.Operationalization",
+      "x": 684,
+      "y": 322
+    },
+    {
+      "id": "ec0ff929-f6b0-4b03-9224-a0e33d862cf1",
+      "text": "Containerization ",
+      "type": "nfr.Operationalization",
+      "x": 817,
+      "y": 317
+    },
+    {
+      "id": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "text": "Decomposed services",
+      "type": "nfr.NFR",
+      "x": 991,
+      "y": 133
+    },
+    {
+      "id": "c1a9bdf3-0e1b-4adc-a2f5-8a518a8b7905",
+      "text": "Contributor coupling ",
+      "type": "nfr.Operationalization",
+      "x": 932,
+      "y": 284
+    },
+    {
+      "id": "a4b9f97a-7941-4d00-9c62-5792be6690ce",
+      "text": "Logical coupling ",
+      "type": "nfr.Operationalization",
+      "x": 1045,
+      "y": 305
+    },
+    {
+      "id": "7259b8ea-1202-43c3-9f38-653c3bbff4f3",
+      "text": "Semantic coupling ",
+      "type": "nfr.Operationalization",
+      "x": 1140,
+      "y": 276
+    },
+    {
+      "id": "e2466ba1-e826-4834-993b-cfd88227a2b6",
+      "text": "Decompose by business capabilities ",
+      "type": "nfr.Operationalization",
+      "x": 1182,
+      "y": 206
+    },
+    {
+      "id": "16d58048-0476-4723-8273-7992d76531b2",
+      "text": "Decompose by subdomain ",
+      "type": "nfr.Operationalization",
+      "x": 1200,
+      "y": 130
+    },
+    {
+      "id": "2f385536-f025-4f1e-a93d-d134c5e4dd19",
+      "text": "Database per service ",
+      "type": "nfr.Operationalization",
+      "x": 444,
+      "y": 328
+    },
+    {
+      "id": "c37acb5a-08e3-4a1b-ba75-a5c0919a2ad4",
+      "text": "Isolated database",
+      "type": "nfr.NFR",
+      "x": 529,
+      "y": 175
+    },
+    {
+      "id": "360862ac-3366-4f6c-9dbb-5ab495399237",
+      "text": "Shared database server",
+      "type": "nfr.Operationalization",
+      "x": 558,
+      "y": 336
+    },
+    {
+      "id": "e0730a2b-bc7d-49c5-8d41-779555d5dfed",
+      "text": "Separated services code",
+      "type": "nfr.NFR",
+      "x": 413,
+      "y": 115
+    },
+    {
+      "id": "04c82ced-2aea-4cdc-a0e3-80a30bbe872b",
+      "text": "Change code dependency to service call ",
+      "type": "nfr.Operationalization",
+      "x": 231,
+      "y": 189
+    },
+    {
+      "id": "0acddbbc-9959-4272-afb2-28b23a6ed69c",
+      "text": "Command and Query Responsibility Separation",
+      "type": "nfr.Operationalization",
+      "x": 319,
+      "y": 260
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "74c93230-a648-42f6-88ae-4fee949bcc14",
+      "type": "nfr.ContributionLink",
+      "source": "2c265339-ca9a-4f5f-bcc1-7d523648ac19",
+      "target": "c97c54bb-b570-40e0-9815-5ae0e3248e10",
+      "label": "++"
+    },
+    {
+      "id": "9754baef-a5f6-40a0-bdd7-9b0c006beb83",
+      "type": "nfr.ContributionLink",
+      "source": "ec0ff929-f6b0-4b03-9224-a0e33d862cf1",
+      "target": "c97c54bb-b570-40e0-9815-5ae0e3248e10",
+      "label": "++"
+    },
+    {
+      "id": "3b373399-92af-4290-b213-c9f433ec3581",
+      "type": "nfr.AndRefinementLink",
+      "source": "c97c54bb-b570-40e0-9815-5ae0e3248e10",
+      "target": "9ddee8ec-21ff-41a0-986d-c8712419af58"
+    },
+    {
+      "id": "a7ca7239-3705-42c2-9ee9-f28650442845",
+      "type": "nfr.ContributionLink",
+      "source": "c1a9bdf3-0e1b-4adc-a2f5-8a518a8b7905",
+      "target": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "label": "++"
+    },
+    {
+      "id": "95c53272-7502-4383-a72b-a9d6b25b19ed",
+      "type": "nfr.ContributionLink",
+      "source": "a4b9f97a-7941-4d00-9c62-5792be6690ce",
+      "target": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "label": "++"
+    },
+    {
+      "id": "718c9352-dbb6-4cbc-95b2-1c45a0a84e75",
+      "type": "nfr.ContributionLink",
+      "source": "7259b8ea-1202-43c3-9f38-653c3bbff4f3",
+      "target": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "label": "++"
+    },
+    {
+      "id": "af0e65a4-231d-41e6-88d6-4ef2b46b922b",
+      "type": "nfr.ContributionLink",
+      "source": "e2466ba1-e826-4834-993b-cfd88227a2b6",
+      "target": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "label": "++"
+    },
+    {
+      "id": "d34795e0-bd67-477a-b41d-8cdc9c3ed89c",
+      "type": "nfr.ContributionLink",
+      "source": "16d58048-0476-4723-8273-7992d76531b2",
+      "target": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "label": "++"
+    },
+    {
+      "id": "1ae90949-bd24-48be-9eb1-90f5f262c044",
+      "type": "nfr.AndRefinementLink",
+      "source": "cb46356c-e5b8-4ce7-818b-35da6c07cf43",
+      "target": "9ddee8ec-21ff-41a0-986d-c8712419af58"
+    },
+    {
+      "id": "1996c3f7-d8ed-421f-8d10-0223678df1f1",
+      "type": "nfr.ContributionLink",
+      "source": "2f385536-f025-4f1e-a93d-d134c5e4dd19",
+      "target": "c37acb5a-08e3-4a1b-ba75-a5c0919a2ad4",
+      "label": "++"
+    },
+    {
+      "id": "9e4dbd60-68db-4fe0-acf4-f1042f197a0a",
+      "type": "nfr.CorrelationLink",
+      "source": "360862ac-3366-4f6c-9dbb-5ab495399237",
+      "target": "c37acb5a-08e3-4a1b-ba75-a5c0919a2ad4",
+      "label": "– –"
+    },
+    {
+      "id": "f512665f-6025-4857-b222-5d5e6d80c569",
+      "type": "nfr.AndRefinementLink",
+      "source": "e0730a2b-bc7d-49c5-8d41-779555d5dfed",
+      "target": "9ddee8ec-21ff-41a0-986d-c8712419af58"
+    },
+    {
+      "id": "5d9fdc9b-31d8-4325-9aef-4609812ec904",
+      "type": "nfr.AndRefinementLink",
+      "source": "c37acb5a-08e3-4a1b-ba75-a5c0919a2ad4",
+      "target": "9ddee8ec-21ff-41a0-986d-c8712419af58"
+    },
+    {
+      "id": "eff10e6c-994f-4ef1-8cb2-49215af95e11",
+      "type": "nfr.ContributionLink",
+      "source": "04c82ced-2aea-4cdc-a0e3-80a30bbe872b",
+      "target": "e0730a2b-bc7d-49c5-8d41-779555d5dfed",
+      "label": "++"
+    },
+    {
+      "id": "a2cd0421-4afd-440a-8684-17b8912fe9db",
+      "type": "nfr.ContributionLink",
+      "source": "0acddbbc-9959-4272-afb2-28b23a6ed69c",
+      "target": "c37acb5a-08e3-4a1b-ba75-a5c0919a2ad4",
+      "label": "+"
+    }
+  ],
+  "display": {
+    "c97c54bb-b570-40e0-9815-5ae0e3248e10": {
+      "width": 105.598876953125,
+      "height": 53.83050537109375
+    },
+    "2c265339-ca9a-4f5f-bcc1-7d523648ac19": {
+      "width": 102.59896850585938,
+      "height": 55.33013916015625
+    },
+    "ec0ff929-f6b0-4b03-9224-a0e33d862cf1": {
+      "width": 106.59869384765625,
+      "height": 55.83026123046875
+    },
+    "c1a9bdf3-0e1b-4adc-a2f5-8a518a8b7905": {
+      "width": 101.59918212890625,
+      "height": 60.829071044921875
+    },
+    "e2466ba1-e826-4834-993b-cfd88227a2b6": {
+      "width": 118.5972900390625,
+      "height": 63.828094482421875
+    },
+    "16d58048-0476-4723-8273-7992d76531b2": {
+      "width": 105.5987548828125,
+      "height": 57.82977294921875
+    },
+    "2f385536-f025-4f1e-a93d-d134c5e4dd19": {
+      "width": 103.59896850585938,
+      "height": 53.83074951171875
+    },
+    "360862ac-3366-4f6c-9dbb-5ab495399237": {
+      "width": 112.59786987304688,
+      "height": 59.82952880859375
+    },
+    "e0730a2b-bc7d-49c5-8d41-779555d5dfed": {
+      "width": 99.59927368164062,
+      "height": 57.82929992675781
+    },
+    "04c82ced-2aea-4cdc-a0e3-80a30bbe872b": {
+      "width": 116.59765625,
+      "height": 70.826416015625
+    },
+    "0acddbbc-9959-4272-afb2-28b23a6ed69c": {
+      "width": 128.59634399414062,
+      "height": 60.829315185546875
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Mon, 29 Nov 2021 20:07:27 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
