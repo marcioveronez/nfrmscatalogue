@@ -1,0 +1,256 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "b21f2d47-351e-4bb8-b974-df5f305280dd",
+      "text": "Security",
+      "type": "nfr.NFR",
+      "x": 670,
+      "y": 112
+    },
+    {
+      "id": "74301eeb-53f7-40d8-b459-af7a2f7e0f60",
+      "text": "Configuration security",
+      "type": "nfr.NFR",
+      "x": 304,
+      "y": 195
+    },
+    {
+      "id": "e957c3fe-70c0-413e-96d6-e22e3263ad63",
+      "text": "Externalized configuration",
+      "type": "nfr.Operationalization",
+      "x": 182,
+      "y": 291
+    },
+    {
+      "id": "79373534-d1fb-4978-8796-10d0790eccd3",
+      "text": "Data security",
+      "type": "nfr.NFR",
+      "x": 446,
+      "y": 231
+    },
+    {
+      "id": "f4f73d83-8d55-45ca-a331-dedf156c2474",
+      "text": "Database per service ",
+      "type": "nfr.Operationalization",
+      "x": 292,
+      "y": 329
+    },
+    {
+      "id": "070d2da0-7e2d-44e0-8f12-c463a6428733",
+      "text": "Plataform security",
+      "type": "nfr.NFR",
+      "x": 604,
+      "y": 236
+    },
+    {
+      "id": "9a452922-88c1-4c6b-a8de-4e2fc98f7ce9",
+      "text": "Containerization ",
+      "type": "nfr.Operationalization",
+      "x": 591,
+      "y": 373
+    },
+    {
+      "id": "8798c8e9-021f-47ca-8b01-7c5bb8dfa141",
+      "text": "Attack detection",
+      "type": "nfr.NFR",
+      "x": 797,
+      "y": 217
+    },
+    {
+      "id": "6a19eba0-0e97-4baf-8ded-0ebc77eddfd3",
+      "text": "Local monitor ",
+      "type": "nfr.Operationalization",
+      "x": 749,
+      "y": 375
+    },
+    {
+      "id": "15eb9ccc-a5d9-4cab-9292-3c50db86bf6b",
+      "text": "External monitor ",
+      "type": "nfr.Operationalization",
+      "x": 854,
+      "y": 372
+    },
+    {
+      "id": "eea3e2b9-e8c2-4bdd-9a4d-48fe9af6c96f",
+      "text": "Communication security",
+      "type": "nfr.NFR",
+      "x": 991,
+      "y": 177
+    },
+    {
+      "id": "3d0c5049-db4b-4fa6-8281-13e6264fbb65",
+      "text": "Client certificate ",
+      "type": "nfr.Operationalization",
+      "x": 1051,
+      "y": 353
+    },
+    {
+      "id": "700478e1-06eb-44e2-b72c-77310fdf1b93",
+      "text": "Key exchanged-based communication authentication",
+      "type": "nfr.Operationalization",
+      "x": 1128,
+      "y": 296
+    },
+    {
+      "id": "7af06a6c-86b8-4dfc-87e7-76c5099b932b",
+      "text": "Federated identity ",
+      "type": "nfr.Operationalization",
+      "x": 1168,
+      "y": 235
+    },
+    {
+      "id": "c260a377-c3df-49fe-a0c2-4cbd68cfdbe1",
+      "text": "Gatekeeper ",
+      "type": "nfr.Operationalization",
+      "x": 943,
+      "y": 333
+    },
+    {
+      "id": "b768dcb4-869b-499e-9750-9a0ad5d7e2de",
+      "text": "Command and Query Responsibility Separation ",
+      "type": "nfr.Operationalization",
+      "x": 384,
+      "y": 366
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "91eb401d-9d20-4dca-aab8-04d8c1c1e035",
+      "type": "nfr.ContributionLink",
+      "source": "e957c3fe-70c0-413e-96d6-e22e3263ad63",
+      "target": "74301eeb-53f7-40d8-b459-af7a2f7e0f60",
+      "label": "+"
+    },
+    {
+      "id": "35759c12-a39a-49dd-bf30-3871652fe43c",
+      "type": "nfr.ContributionLink",
+      "source": "f4f73d83-8d55-45ca-a331-dedf156c2474",
+      "target": "79373534-d1fb-4978-8796-10d0790eccd3",
+      "label": "+"
+    },
+    {
+      "id": "4d26239f-c1f3-42ee-9641-e8f7650f2300",
+      "type": "nfr.ContributionLink",
+      "source": "9a452922-88c1-4c6b-a8de-4e2fc98f7ce9",
+      "target": "070d2da0-7e2d-44e0-8f12-c463a6428733",
+      "label": "+"
+    },
+    {
+      "id": "1b85ec6f-5b7b-46f0-934d-b8ff6b7a6891",
+      "type": "nfr.ContributionLink",
+      "source": "6a19eba0-0e97-4baf-8ded-0ebc77eddfd3",
+      "target": "8798c8e9-021f-47ca-8b01-7c5bb8dfa141",
+      "label": "++"
+    },
+    {
+      "id": "cb04203a-3871-46d6-b009-761ee3595029",
+      "type": "nfr.ContributionLink",
+      "source": "15eb9ccc-a5d9-4cab-9292-3c50db86bf6b",
+      "target": "8798c8e9-021f-47ca-8b01-7c5bb8dfa141",
+      "label": "++"
+    },
+    {
+      "id": "aea2810b-b8de-4ec0-9f59-848dd1b5a4a1",
+      "type": "nfr.ContributionLink",
+      "source": "c260a377-c3df-49fe-a0c2-4cbd68cfdbe1",
+      "target": "8798c8e9-021f-47ca-8b01-7c5bb8dfa141",
+      "label": "++"
+    },
+    {
+      "id": "a04a7c61-89f9-4215-a64e-c7b676cd5615",
+      "type": "nfr.ContributionLink",
+      "source": "3d0c5049-db4b-4fa6-8281-13e6264fbb65",
+      "target": "eea3e2b9-e8c2-4bdd-9a4d-48fe9af6c96f",
+      "label": "+"
+    },
+    {
+      "id": "2088d9a4-200d-475d-9b84-26f2228fb917",
+      "type": "nfr.ContributionLink",
+      "source": "700478e1-06eb-44e2-b72c-77310fdf1b93",
+      "target": "eea3e2b9-e8c2-4bdd-9a4d-48fe9af6c96f",
+      "label": "+"
+    },
+    {
+      "id": "eca4d73c-ac8a-4cd6-84f9-41957f1a187c",
+      "type": "nfr.ContributionLink",
+      "source": "7af06a6c-86b8-4dfc-87e7-76c5099b932b",
+      "target": "eea3e2b9-e8c2-4bdd-9a4d-48fe9af6c96f",
+      "label": "+"
+    },
+    {
+      "id": "7d2748db-8920-458d-aedf-492346c95e20",
+      "type": "nfr.ContributionLink",
+      "source": "b768dcb4-869b-499e-9750-9a0ad5d7e2de",
+      "target": "79373534-d1fb-4978-8796-10d0790eccd3",
+      "label": "+"
+    },
+    {
+      "id": "dcbf901b-e4ec-4414-bbdc-8d84d4927ba1",
+      "type": "nfr.AndRefinementLink",
+      "source": "74301eeb-53f7-40d8-b459-af7a2f7e0f60",
+      "target": "b21f2d47-351e-4bb8-b974-df5f305280dd"
+    },
+    {
+      "id": "7211e2f8-6c03-4ba0-b101-abe1a7522a38",
+      "type": "nfr.AndRefinementLink",
+      "source": "79373534-d1fb-4978-8796-10d0790eccd3",
+      "target": "b21f2d47-351e-4bb8-b974-df5f305280dd"
+    },
+    {
+      "id": "d8048a54-1c56-4967-b6b3-5cbe7bd407f6",
+      "type": "nfr.AndRefinementLink",
+      "source": "070d2da0-7e2d-44e0-8f12-c463a6428733",
+      "target": "b21f2d47-351e-4bb8-b974-df5f305280dd"
+    },
+    {
+      "id": "75b44af0-55b8-4858-9016-e0033903ad05",
+      "type": "nfr.AndRefinementLink",
+      "source": "8798c8e9-021f-47ca-8b01-7c5bb8dfa141",
+      "target": "b21f2d47-351e-4bb8-b974-df5f305280dd"
+    },
+    {
+      "id": "de86865c-3276-4fe7-b37d-f0851a6ee5c2",
+      "type": "nfr.AndRefinementLink",
+      "source": "eea3e2b9-e8c2-4bdd-9a4d-48fe9af6c96f",
+      "target": "b21f2d47-351e-4bb8-b974-df5f305280dd"
+    }
+  ],
+  "display": {
+    "e957c3fe-70c0-413e-96d6-e22e3263ad63": {
+      "width": 99.771240234375,
+      "height": 60.829071044921875
+    },
+    "f4f73d83-8d55-45ca-a331-dedf156c2474": {
+      "width": 99.77114868164062,
+      "height": 61.829071044921875
+    },
+    "9a452922-88c1-4c6b-a8de-4e2fc98f7ce9": {
+      "width": 113.76971435546875,
+      "height": 61.329193115234375
+    },
+    "eea3e2b9-e8c2-4bdd-9a4d-48fe9af6c96f": {
+      "width": 101.77081298828125,
+      "height": 58.32942199707031
+    },
+    "700478e1-06eb-44e2-b72c-77310fdf1b93": {
+      "width": 127.768310546875,
+      "height": 74.3260498046875
+    },
+    "b768dcb4-869b-499e-9750-9a0ad5d7e2de": {
+      "width": 153.76565551757812,
+      "height": 70.82736206054688
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Sat, 27 Nov 2021 17:55:39 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

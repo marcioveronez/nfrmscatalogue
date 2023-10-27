@@ -1,0 +1,53 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "59751446-5e8a-4e11-9424-fa318347c99b",
+      "text": "Reusability",
+      "type": "nfr.NFR",
+      "x": 744,
+      "y": 77
+    },
+    {
+      "id": "6190c551-e130-48a2-8171-cd98c3b65292",
+      "text": "Service template",
+      "type": "nfr.NFR",
+      "x": 742,
+      "y": 200
+    },
+    {
+      "id": "0e203952-fe38-4be5-be4a-a91180f67c7c",
+      "text": "Chassis",
+      "type": "nfr.Operationalization",
+      "x": 744,
+      "y": 335
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "37aefe88-713f-4f6c-a8cd-d05e4feac393",
+      "type": "nfr.AndRefinementLink",
+      "source": "6190c551-e130-48a2-8171-cd98c3b65292",
+      "target": "59751446-5e8a-4e11-9424-fa318347c99b"
+    },
+    {
+      "id": "a3410aa0-651e-4892-824e-caa7492b3f2e",
+      "type": "nfr.ContributionLink",
+      "source": "0e203952-fe38-4be5-be4a-a91180f67c7c",
+      "target": "6190c551-e130-48a2-8171-cd98c3b65292",
+      "label": "++"
+    }
+  ],
+  "display": {},
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Tue, 21 Dec 2021 20:20:51 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "8cac06dd-ce84-4fda-8cd7-ab6795474730",
+      "text": "Evolvability",
+      "type": "nfr.NFR",
+      "x": 854,
+      "y": 14
+    },
+    {
+      "id": "73d761a0-4609-4d37-a804-47fbad7237c8",
+      "text": "Adapter",
+      "type": "nfr.Operationalization",
+      "x": 151,
+      "y": 135
+    },
+    {
+      "id": "1ba0a758-a795-4f6f-9372-d54dc22598d5",
+      "text": "Anti-corruption layer",
+      "type": "nfr.Operationalization",
+      "x": 175,
+      "y": 198
+    },
+    {
+      "id": "bd15d3d6-c035-43c5-962e-7858406e0489",
+      "text": "API gateway",
+      "type": "nfr.Operationalization",
+      "x": 220,
+      "y": 279
+    },
+    {
+      "id": "918c19c1-e7ce-47be-83df-2402ffb2f167",
+      "text": "Backend for frontend",
+      "type": "nfr.Operationalization",
+      "x": 459,
+      "y": 392
+    },
+    {
+      "id": "9db13705-5eb2-4343-bd8e-2e258e051f37",
+      "text": "Aggressive obsolescence",
+      "type": "nfr.Operationalization",
+      "x": 1077,
+      "y": 493
+    },
+    {
+      "id": "d3aa3576-b0fe-4ddc-a3df-b0ece3652b30",
+      "text": "API versioning",
+      "type": "nfr.Operationalization",
+      "x": 1474,
+      "y": 271
+    },
+    {
+      "id": "099b1f92-8191-4602-805e-78938ff42e63",
+      "text": "API description",
+      "type": "nfr.Operationalization",
+      "x": 845,
+      "y": 488
+    },
+    {
+      "id": "426984a7-5521-4da6-bd21-2ec2837808c0",
+      "text": "Experimental preview",
+      "type": "nfr.Operationalization",
+      "x": 1191,
+      "y": 472
+    },
+    {
+      "id": "20a36852-42b7-4faa-8cfc-c85afc5e9fee",
+      "text": "Limited lifetime guarantee",
+      "type": "nfr.Operationalization",
+      "x": 1309,
+      "y": 452
+    },
+    {
+      "id": "a6025b1d-102d-4466-add1-1b7e75230708",
+      "text": "Two in production",
+      "type": "nfr.Operationalization",
+      "x": 1346,
+      "y": 388
+    },
+    {
+      "id": "323ff197-d907-4623-9503-22e188d0ac05",
+      "text": "Semantic versioning",
+      "type": "nfr.Operationalization",
+      "x": 1415,
+      "y": 335
+    },
+    {
+      "id": "94a87ac2-44da-4a4e-9889-f5cda4fe27da",
+      "text": "Hybrid",
+      "type": "nfr.Operationalization",
+      "x": 158,
+      "y": 72
+    },
+    {
+      "id": "0498da21-0d9f-4f63-a29d-fe03173d81b0",
+      "text": "Shared database server",
+      "type": "nfr.Operationalization",
+      "x": 1494,
+      "y": 132
+    },
+    {
+      "id": "576ba904-0542-49bf-bacc-8cf88148c9e2",
+      "text": "Edge server",
+      "type": "nfr.Operationalization",
+      "x": 267,
+      "y": 335
+    },
+    {
+      "id": "dafc689b-60bd-4b61-ac7c-07f66d2e60bc",
+      "text": "Strangler",
+      "type": "nfr.Operationalization",
+      "x": 1505,
+      "y": 70
+    },
+    {
+      "id": "e712007d-6f88-4d99-80bd-11b6bbef7b8e",
+      "text": "Consumer-driven contracts",
+      "type": "nfr.Operationalization",
+      "x": 958,
+      "y": 492
+    },
+    {
+      "id": "bd986501-8cb7-40ad-9d0c-8e8ab37b9c70",
+      "text": "Database per service",
+      "type": "nfr.Operationalization",
+      "x": 1440,
+      "y": 203
+    },
+    {
+      "id": "dc081416-eb02-4cd1-b034-96580a6e81b0",
+      "text": "Server-side discovery",
+      "type": "nfr.Operationalization",
+      "x": 680,
+      "y": 461
+    },
+    {
+      "id": "8826b47b-e7ec-4a7a-beaa-fbf35e937092",
+      "text": "Client-side discovery",
+      "type": "nfr.Operationalization",
+      "x": 538,
+      "y": 439
+    },
+    {
+      "id": "62f08c92-f6a5-4e12-81de-1db5a67b2db2",
+      "text": "Gateway routing",
+      "type": "nfr.Operationalization",
+      "x": 342,
+      "y": 373
+    },
+    {
+      "id": "3bd59788-57ba-46f5-8f28-082b5e966afc",
+      "text": "Legacy software migration",
+      "type": "nfr.NFR",
+      "x": 1221,
+      "y": 68
+    },
+    {
+      "id": "3174a661-b5e3-4771-8fd8-51a813dcb70f",
+      "text": "Database evolution",
+      "type": "nfr.NFR",
+      "x": 1198,
+      "y": 165
+    },
+    {
+      "id": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "text": "API evolution",
+      "type": "nfr.NFR",
+      "x": 1017,
+      "y": 300
+    },
+    {
+      "id": "13725824-eebe-4566-87d8-209d30ac6722",
+      "text": "Legacy software integration",
+      "type": "nfr.NFR",
+      "x": 406,
+      "y": 93
+    },
+    {
+      "id": "2e1a0186-95a7-4eb4-abd2-4fc107a58454",
+      "text": "Service extension",
+      "type": "nfr.NFR",
+      "x": 525,
+      "y": 178
+    },
+    {
+      "id": "de33fc28-233d-41f5-81b1-45e01c7e08dc",
+      "text": "Easier service replacement",
+      "type": "nfr.NFR",
+      "x": 704,
+      "y": 274
+    },
+    {
+      "id": "8d168333-af66-46cd-9f51-cbc36281ac10",
+      "text": "API versioning",
+      "type": "nfr.NFR",
+      "x": 1162,
+      "y": 239
+    },
+    {
+      "id": "aa943391-5528-4a91-be45-9344825e5de3",
+      "text": "API documentation",
+      "type": "nfr.NFR",
+      "x": 850,
+      "y": 320
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "dcc241e4-d7eb-40af-89be-533eb9746487",
+      "type": "nfr.AndRefinementLink",
+      "source": "3bd59788-57ba-46f5-8f28-082b5e966afc",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "487306ec-d38d-46f1-b554-9e847f7b9b4a",
+      "type": "nfr.AndRefinementLink",
+      "source": "3174a661-b5e3-4771-8fd8-51a813dcb70f",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "09f9fefb-0faf-421b-befc-3de378d10f8e",
+      "type": "nfr.AndRefinementLink",
+      "source": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "04b7980e-680e-4574-b70c-228ced6efd18",
+      "type": "nfr.ContributionLink",
+      "source": "9db13705-5eb2-4343-bd8e-2e258e051f37",
+      "target": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "label": "+"
+    },
+    {
+      "id": "77dccfc9-b04c-41cb-ab7b-44293a9f97d2",
+      "type": "nfr.ContributionLink",
+      "source": "426984a7-5521-4da6-bd21-2ec2837808c0",
+      "target": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "label": "+"
+    },
+    {
+      "id": "ecd9c2c7-dc48-4779-8d25-e58962905560",
+      "type": "nfr.ContributionLink",
+      "source": "20a36852-42b7-4faa-8cfc-c85afc5e9fee",
+      "target": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "label": "+"
+    },
+    {
+      "id": "10f5ce5f-37f6-4f4c-82be-1916d5c888c8",
+      "type": "nfr.ContributionLink",
+      "source": "a6025b1d-102d-4466-add1-1b7e75230708",
+      "target": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "label": "+"
+    },
+    {
+      "id": "49dc135c-d270-4482-aa9e-90c86c4533c9",
+      "type": "nfr.ContributionLink",
+      "source": "bd15d3d6-c035-43c5-962e-7858406e0489",
+      "target": "13725824-eebe-4566-87d8-209d30ac6722",
+      "label": "+"
+    },
+    {
+      "id": "0e264ea3-d667-4016-b174-daa604e8801d",
+      "type": "nfr.ContributionLink",
+      "source": "1ba0a758-a795-4f6f-9372-d54dc22598d5",
+      "target": "13725824-eebe-4566-87d8-209d30ac6722",
+      "label": "+"
+    },
+    {
+      "id": "482391fa-6925-4475-a2f9-46962ab5549a",
+      "type": "nfr.ContributionLink",
+      "source": "73d761a0-4609-4d37-a804-47fbad7237c8",
+      "target": "13725824-eebe-4566-87d8-209d30ac6722",
+      "label": "+"
+    },
+    {
+      "id": "abc2bb69-66f9-4cf5-bb70-8367480fd018",
+      "type": "nfr.ContributionLink",
+      "source": "bd15d3d6-c035-43c5-962e-7858406e0489",
+      "target": "2e1a0186-95a7-4eb4-abd2-4fc107a58454",
+      "label": "+"
+    },
+    {
+      "id": "b8c61ea1-b4c4-49f6-9466-11fcd494fffa",
+      "type": "nfr.ContributionLink",
+      "source": "918c19c1-e7ce-47be-83df-2402ffb2f167",
+      "target": "2e1a0186-95a7-4eb4-abd2-4fc107a58454",
+      "label": "+"
+    },
+    {
+      "id": "ac0773e6-ff61-46e2-a9f5-54c5c39fc5ef",
+      "type": "nfr.ContributionLink",
+      "source": "62f08c92-f6a5-4e12-81de-1db5a67b2db2",
+      "target": "2e1a0186-95a7-4eb4-abd2-4fc107a58454",
+      "label": "+"
+    },
+    {
+      "id": "3b750b99-aa80-45b7-9113-4a01c4511365",
+      "type": "nfr.ContributionLink",
+      "source": "576ba904-0542-49bf-bacc-8cf88148c9e2",
+      "target": "2e1a0186-95a7-4eb4-abd2-4fc107a58454",
+      "label": "+"
+    },
+    {
+      "id": "a4b5344a-32e9-43fa-bb36-ad87f2e74198",
+      "type": "nfr.ContributionLink",
+      "source": "94a87ac2-44da-4a4e-9889-f5cda4fe27da",
+      "target": "13725824-eebe-4566-87d8-209d30ac6722",
+      "label": "+"
+    },
+    {
+      "id": "09ae7a21-451c-47b6-8bd7-f0e32162073d",
+      "type": "nfr.AndRefinementLink",
+      "source": "13725824-eebe-4566-87d8-209d30ac6722",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "1d64c6f7-3871-42d0-a2c4-ba04ebb79786",
+      "type": "nfr.AndRefinementLink",
+      "source": "2e1a0186-95a7-4eb4-abd2-4fc107a58454",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "382cfd24-ae0b-42c0-9b4d-c42c05f6468f",
+      "type": "nfr.ContributionLink",
+      "source": "8826b47b-e7ec-4a7a-beaa-fbf35e937092",
+      "target": "de33fc28-233d-41f5-81b1-45e01c7e08dc",
+      "label": "++"
+    },
+    {
+      "id": "3435e758-a68d-4934-89d5-feb51fd971a7",
+      "type": "nfr.ContributionLink",
+      "source": "dc081416-eb02-4cd1-b034-96580a6e81b0",
+      "target": "de33fc28-233d-41f5-81b1-45e01c7e08dc",
+      "label": "++"
+    },
+    {
+      "id": "b416201b-4fea-436d-a8d9-3031daed7daa",
+      "type": "nfr.AndRefinementLink",
+      "source": "de33fc28-233d-41f5-81b1-45e01c7e08dc",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "7e7b3ce8-3cef-4f23-95c5-e307091eddaf",
+      "type": "nfr.ContributionLink",
+      "source": "dafc689b-60bd-4b61-ac7c-07f66d2e60bc",
+      "target": "3bd59788-57ba-46f5-8f28-082b5e966afc",
+      "label": "+"
+    },
+    {
+      "id": "f6319dd1-90a5-4ebf-b01c-4b8187adef8d",
+      "type": "nfr.ContributionLink",
+      "source": "0498da21-0d9f-4f63-a29d-fe03173d81b0",
+      "target": "3bd59788-57ba-46f5-8f28-082b5e966afc",
+      "label": "+"
+    },
+    {
+      "id": "ea4b3845-74cf-456e-8751-a7c216a1ee0e",
+      "type": "nfr.ContributionLink",
+      "source": "bd986501-8cb7-40ad-9d0c-8e8ab37b9c70",
+      "target": "3174a661-b5e3-4771-8fd8-51a813dcb70f",
+      "label": "+"
+    },
+    {
+      "id": "30b0dcf9-3772-4e4c-b118-9fa725d1c6eb",
+      "type": "nfr.ContributionLink",
+      "source": "d3aa3576-b0fe-4ddc-a3df-b0ece3652b30",
+      "target": "8d168333-af66-46cd-9f51-cbc36281ac10",
+      "label": "++"
+    },
+    {
+      "id": "ff5d9736-7ce5-4542-bf73-02c812a64fa7",
+      "type": "nfr.ContributionLink",
+      "source": "323ff197-d907-4623-9503-22e188d0ac05",
+      "target": "8d168333-af66-46cd-9f51-cbc36281ac10",
+      "label": "+"
+    },
+    {
+      "id": "92f3acae-be2a-4042-9ccb-f4d9681524c2",
+      "type": "nfr.AndRefinementLink",
+      "source": "8d168333-af66-46cd-9f51-cbc36281ac10",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    },
+    {
+      "id": "ed2c4991-77be-4889-ad97-c24a26660cf2",
+      "type": "nfr.ContributionLink",
+      "source": "e712007d-6f88-4d99-80bd-11b6bbef7b8e",
+      "target": "c6cf392e-b4f9-4543-b9a1-3f95c482c333",
+      "label": "+"
+    },
+    {
+      "id": "bb5e2e27-ad74-4052-b808-387215252133",
+      "type": "nfr.ContributionLink",
+      "source": "099b1f92-8191-4602-805e-78938ff42e63",
+      "target": "aa943391-5528-4a91-be45-9344825e5de3",
+      "label": "++"
+    },
+    {
+      "id": "67c091de-fbdf-498f-bcaa-8183c562f76c",
+      "type": "nfr.AndRefinementLink",
+      "source": "aa943391-5528-4a91-be45-9344825e5de3",
+      "target": "8cac06dd-ce84-4fda-8cd7-ab6795474730"
+    }
+  ],
+  "display": {
+    "73d761a0-4609-4d37-a804-47fbad7237c8": {
+      "width": 98.59938049316406,
+      "height": 56.986480712890625
+    },
+    "1ba0a758-a795-4f6f-9372-d54dc22598d5": {
+      "width": 110.5981674194336,
+      "height": 56.985992431640625
+    },
+    "918c19c1-e7ce-47be-83df-2402ffb2f167": {
+      "width": 102.59906005859375,
+      "height": 61.98480224609375
+    },
+    "9db13705-5eb2-4343-bd8e-2e258e051f37": {
+      "width": 105.59869384765625,
+      "height": 60.985504150390625
+    },
+    "d3aa3576-b0fe-4ddc-a3df-b0ece3652b30": {
+      "width": 96.59967041015625,
+      "height": 60.98529052734375
+    },
+    "426984a7-5521-4da6-bd21-2ec2837808c0": {
+      "width": 104.598876953125,
+      "height": 67.98333740234375
+    },
+    "20a36852-42b7-4faa-8cfc-c85afc5e9fee": {
+      "width": 105.5986328125,
+      "height": 70.98260498046875
+    },
+    "0498da21-0d9f-4f63-a29d-fe03173d81b0": {
+      "width": 113.597900390625,
+      "height": 62.98503112792969
+    },
+    "e712007d-6f88-4d99-80bd-11b6bbef7b8e": {
+      "width": 114.59783935546875,
+      "height": 59.98527526855469
+    },
+    "bd986501-8cb7-40ad-9d0c-8e8ab37b9c70": {
+      "width": 103.598876953125,
+      "height": 59.98527526855469
+    },
+    "dc081416-eb02-4cd1-b034-96580a6e81b0": {
+      "width": 142.59490966796875,
+      "height": 71.98284912109375
+    },
+    "8826b47b-e7ec-4a7a-beaa-fbf35e937092": {
+      "width": 141.59490966796875,
+      "height": 60.985260009765625
+    },
+    "62f08c92-f6a5-4e12-81de-1db5a67b2db2": {
+      "width": 109.59837341308594,
+      "height": 65.98406982421875
+    },
+    "3bd59788-57ba-46f5-8f28-082b5e966afc": {
+      "width": 111.5982666015625,
+      "height": 62.98478698730469
+    },
+    "13725824-eebe-4566-87d8-209d30ac6722": {
+      "width": 128.59645080566406,
+      "height": 61.98503112792969
+    },
+    "2e1a0186-95a7-4eb4-abd2-4fc107a58454": {
+      "width": 96.59947967529297,
+      "height": 63.98480224609375
+    },
+    "de33fc28-233d-41f5-81b1-45e01c7e08dc": {
+      "width": 98.5994873046875,
+      "height": 63.98455810546875
+    },
+    "8d168333-af66-46cd-9f51-cbc36281ac10": {
+      "width": 95.5997314453125,
+      "height": 53.986968994140625
+    },
+    "aa943391-5528-4a91-be45-9344825e5de3": {
+      "width": 94.59967041015625,
+      "height": 59.485626220703125
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Tue, 23 Nov 2021 17:17:04 GMT",
+  "diagram": {
+    "width": 2131,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
